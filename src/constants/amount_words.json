@@ -1,0 +1,14 @@
+{
+  "currency_patterns": [
+    { "pattern": "৳", "replacement": "BDT" },
+    { "pattern": "taka", "replacement": "BDT" },
+    { "pattern": "tk", "replacement": "BDT" },
+    { "pattern": "টাকা", "replacement": "BDT" },
+    { "pattern": "bdt", "replacement": "BDT" }
+  ],
+  "amount_regex": "(?:BDT|৳|tk|taka|টাকা)?\\s*(\\d[\\d,]*(?:\\.\\d{1,2})?)\\s*(?:BDT|৳|tk|taka|টাকা)?",
+  "bangla_digits": {
+    "০": "0", "১": "1", "২": "2", "৩": "3", "৪": "4",
+    "৫": "5", "৬": "6", "৭": "7", "৮": "8", "৯": "9"
+  }
+}

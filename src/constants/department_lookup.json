@@ -1,0 +1,18 @@
+{
+  "wrong_transfer": "dispute_resolution",
+  "payment_failed": "payments_ops",
+  "refund_request": "customer_support",
+  "duplicate_payment": "payments_ops",
+  "merchant_settlement_delay": "merchant_operations",
+  "agent_cash_in_issue": "agent_operations",
+  "phishing_or_social_engineering": "fraud_risk",
+  "other": "customer_support",
+
+  "overrides": {
+    "high_value_ambiguous": "customer_support",
+    "agent_dispute": "agent_operations",
+    "merchant_dispute": "merchant_operations",
+    "technical_issue": "customer_support",
+    "multi_flag_escalation": "customer_support"
+  }
+}

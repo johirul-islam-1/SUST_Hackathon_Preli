@@ -1,0 +1,16 @@
+{
+  "types": {
+    "send_money": ["send", "sent", "transfer", "transferred", "পাঠিয়েছি", "পাঠানো", "pathiyechi"],
+    "cash_out": ["cashout", "cash out", "withdraw", "withdrew", "withdrawal", "তুলেছি", "ক্যাশ আউট", "cash out"],
+    "cash_in": ["cashin", "cash in", "deposit", "deposited", "জমা", "ক্যাশ ইন"],
+    "payment": ["payment", "pay", "paid", "purchase", "bought", "buy", "পেমেন্ট", "কিনেছি"],
+    "add_money": ["add money", "top up", "topup", "recharge", "রিচার্জ", "টপ আপ"],
+    "receive": ["receive", "received", "got", "পেয়েছি", "এসেছে"]
+  },
+  "status_keywords": {
+    "completed": ["completed", "success", "successful", "done", "সফল"],
+    "failed": ["failed", "failure", "unsuccessful", "error", "ব্যর্থ"],
+    "pending": ["pending", "processing", "in progress", "চলমান"],
+    "reversed": ["reversed", "refunded", "cancelled", "বাতিল"]
+  }
+}

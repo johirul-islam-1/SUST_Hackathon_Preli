@@ -1,0 +1,42 @@
+{
+  "wrong_transfer": {
+    "en": ["wrong number", "wrong account", "sent to wrong", "transfer mistake", "wrong person", "wrong recipient", "accidental transfer", "mistaken transfer", "sent to incorrect", "not the right number", "didn't receive", "did not receive", "brother says he didn't get", "sister says she didn't get", "friend says they didn't get", "my brother", "my sister", "my friend"],
+    "bn": ["ভুল নম্বর", "ভুল অ্যাকাউন্ট", "ভুলে পাঠিয়েছি", "ভুল ব্যক্তি"],
+    "banglish": ["vul number", "vul account", "vule pathiyechi", "wrong number e pathiyechi"]
+  },
+  "payment_failed": {
+    "en": ["payment failed", "failed transaction", "transaction failed", "could not pay", "payment not going", "payment stuck", "payment error", "declined", "rejected", "not processed", "deducted but not received", "balance was deducted", "money was deducted", "recharge failed", "bill failed", "payment not received", "app showed failed"],
+    "bn": ["পেমেন্ট ব্যর্থ", "লেনদেন ব্যর্থ", "পেমেন্ট হয়নি", "পেমেন্ট আটকে", "টাকা কেটেছে কিন্তু"],
+    "banglish": ["payment hoy nai", "payment fail", "transaction fail", "taka katse kintu", "payment arke", "payment stuck"]
+  },
+  "refund_request": {
+    "en": ["refund", "money back", "return money", "want refund", "give refund", "refund request", "cashback", "reimburse", "i changed my mind", "don't want it anymore", "please refund"],
+    "bn": ["রিফান্ড", "টাকা ফেরত", "টাকা ফিরিয়ে", "রিফান্ড চাই"],
+    "banglish": ["refund", "taka ferot", "taka firiye", "refund chai"]
+  },
+  "duplicate_payment": {
+    "en": ["duplicate", "double charge", "charged twice", "paid twice", "double deduction", "double payment", "two times", "multiple charge", "deducted twice", "i only paid once"],
+    "bn": ["ডুপ্লিকেট", "দুইবার কেটেছে", "দুইবার পেমেন্ট", "ডাবল চার্জ"],
+    "banglish": ["duplicate", "duibar katse", "duibar payment", "double charge"]
+  },
+  "merchant_settlement_delay": {
+    "en": ["settlement", "settle", "merchant", "shop", "store", "sales not settled", "settlement delay", "settlement pending", "usually settles", "next day settlement", "settlement not received", "merchant account", "merchant portal"],
+    "bn": ["মার্চেন্ট", "দোকান", "দোকানদার", "বিক্রেতা", "সেটেলমেন্ট"],
+    "banglish": ["merchant", "dokan", "dokandar", "settlement", "settlement delay"]
+  },
+  "agent_cash_in_issue": {
+    "en": ["agent", "cash in", "cash-in", "cashin", "agent cash in", "agent says sent", "balance not reflected", "cash in not received", "deposit through agent", "deposited via agent", "agent didn't send", "agent claimed"],
+    "bn": ["এজেন্ট", "ক্যাশ ইন", "জমা", "এজেন্ট বলছে"],
+    "banglish": ["agent", "cash in", "cashin", "agent cash in"]
+  },
+  "phishing_or_social_engineering": {
+    "en": ["phishing", "social engineering", "called and asked pin", "asked for otp", "tricked", "deceived", "fake call", "impersonator", "pretending", "share pin", "share otp", "gave pin", "gave otp", "told to share", "someone called me", "is this real", "they said my account will be blocked"],
+    "bn": ["ফিশিং", "পিন চেয়েছে", "ওটিপি চেয়েছে", "প্রতারিত", "ভুয়া কল", "পিন দিয়েছি"],
+    "banglish": ["phishing", "pin cheyeche", "otp cheyeche", "pratarit", "fake call", "pin diyechi", "otp diyechi"]
+  },
+  "other": {
+    "en": ["something is wrong", "issue with my account", "problem with money", "need help", "please check", "my account"],
+    "bn": ["কিছু সমস্যা", "সাহায্য চাই"],
+    "banglish": ["kichu problem", "help chai"]
+  }
+}

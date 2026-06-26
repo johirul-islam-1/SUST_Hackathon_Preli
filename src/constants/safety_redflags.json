@@ -1,0 +1,42 @@
+{
+  "input_patterns": {
+    "credential_request": [
+      "(?:share|give|send|tell|provide)\\s*(?:your|ur|the)?\\s*(?:pin|otp|password|cvv|card\\s*number)",
+      "(?:pin|otp|password|cvv)\\s*(?:number|code)?\\s*(?:diben|din|dao|den|dew)",
+      "(?:verify|confirm)\\s*(?:your|ur)?\\s*(?:pin|otp|password|cvv)"
+    ],
+    "injection": [
+      "ignore\\s*(?:all\\s*)?(?:previous|prior|above)\\s*(?:instructions|rules|prompts)",
+      "you\\s*are\\s*now\\s*(?:a|an)?",
+      "system\\s*prompt",
+      "override\\s*(?:safety|rules|instructions)",
+      "pretend\\s*(?:you|to\\s*be)",
+      "jailbreak",
+      "bypass\\s*(?:safety|filter|rules)"
+    ],
+    "unsafe_instruction": [
+      "(?:refund|return|send|transfer)\\s*(?:the\\s*)?(?:money|amount|taka|tk)\\s*(?:now|immediately|right\\s*away)",
+      "(?:process|approve|authorize)\\s*(?:refund|reversal)\\s*(?:now|immediately)"
+    ]
+  },
+  "output_patterns": {
+    "credentials": [
+      "\\b(?:pin|otp|password|cvv)\\b",
+      "\\bfull\\s*card\\b",
+      "\\bcard\\s*number\\b",
+      "\\baccount\\s*number\\b"
+    ],
+    "refund_promise": [
+      "\\b(?:refund|return)(?:ed|ing)?\\s*(?:your|the)?\\s*(?:money|amount|taka|tk)\\b",
+      "\\byou\\s*will\\s*(?:get|receive)\\s*(?:your\\s*)?(?:money|refund|amount)\\b",
+      "\\bwe\\s*(?:will|have)\\s*(?:refund|return|reverse|credit)\\b"
+    ],
+    "unofficial_contact": [
+      "\\b(?:call|contact|message|whatsapp|telegram|facebook|viber)\\s*(?:us|me|this\\s*number)\\b",
+      "\\b\\+?\\d{10,}\\b"
+    ]
+  },
+  "safe_replacement_keywords": [
+    "pin", "otp", "password", "cvv", "card number", "account number", "full card"
+  ]
+}

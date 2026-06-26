@@ -1,0 +1,24 @@
+{
+  "base_severity": {
+    "wrong_transfer": "high",
+    "payment_failed": "high",
+    "refund_request": "low",
+    "duplicate_payment": "high",
+    "merchant_settlement_delay": "medium",
+    "agent_cash_in_issue": "high",
+    "phishing_or_social_engineering": "critical",
+    "other": "low"
+  },
+  "amount_thresholds": {
+    "high_value": 50000,
+    "medium_value": 10000
+  },
+  "bump_rules": [
+    { "condition": "amount_gte_50k", "bump_to": "critical" },
+    { "condition": "amount_gte_10k_and_inconsistent", "bump_to": "high" },
+    { "condition": "fraud_flag", "bump_to": "critical" },
+    { "condition": "inconsistent_high_amount", "bump_to": "critical" },
+    { "condition": "merchant_or_agent_flag", "bump_to": "high" }
+  ],
+  "severity_order": ["low", "medium", "high", "critical"]
+}
