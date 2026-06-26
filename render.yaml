@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: queuestorm-investigator
+    runtime: node
+    plan: starter
+    region: oregon
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20.11.0"
+      - key: PORT
+        value: "8080"
+      - key: LOG_LEVEL
+        value: "info"
+      - key: LOG_COMPLAINTS
+        value: "0"
+      - key: KEEPALIVE_URL
+        sync: false
